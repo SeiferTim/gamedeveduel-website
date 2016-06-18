@@ -4,6 +4,7 @@ gem 'bundler'
 gem 'rake'
 gem 'jekyll'
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
+gem 'jekyll-assets'
 gem 'yui-compressor'
 gem 'listen'
 gem 'rouge'
@@ -17,5 +18,3 @@ gem 'rubyzip', '>= 1.0.0'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'font-awesome-sass'
 gem 'mini_magick'
-gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-assets'
