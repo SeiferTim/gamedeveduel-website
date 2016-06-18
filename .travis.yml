@@ -4,6 +4,7 @@ rvm:
 - 2.1
 install:
 - bundle install --jobs=3 --retry=3
+- chmod +x "./deploy.sh"
 before_script: bundle update
 script: bundle exec rake build
 branches:
