@@ -1,0 +1,13 @@
+language: ruby
+sudo: true
+rvm:
+- 2.1.2
+before_script: bundle update
+script: bundle exec rake deploy
+branches:
+  only:
+  - master
+after_success: if [[ "$TRAVIS_REPO_SLUG" == "SeiferTim/gamedeveduel-website" ]]; then ./deploy.sh
+env:
+  global:
+    secure: mCteRQQmikJ4/aX30lHbvrFWn48wUGC3da7zuvL0PZLvzSWhbyciXkyJWeghEgdW9VX9gReNyPqPAVRu0xYktWij47GGHscx7jxRAEVWuyOiMqLWI7PM1ONP+P/9Ab71T+yZG9aq1hV75Z544jYPbfvKgbEC2uf1HPBWQq0xKp8Npk295U6rHDudgJy0mv5PfqyvpmwahvdHdny1XYoWWdNehDvpeEAinCFu03p/x+aNGXPrXr7WGn5ibaLkSTrFIqMXkE+SY8HlEMYuc32k43U2r6zVXv7F9PTXELJbTmJAUc/krfrAc8bzLZpPYYMTl5cKj4ok9cRYb8pQ8THjbrtWA2OlmFGAPhkyp7Ce8ut4i6FFKLDRqoRl6k4ePk4aKVnvWrPvNkI1u/wVx66z6UCGXhW409cGWuStGcbq5zW60GWPrGsylxBqwg1FPZGq65qGWdqE8r5uUagkdJBSSFtsSyqf9fGkd1d3X0tgirR4RQKefssRc6CNWiC3HskvKdChiFfH7zdc70xuU5qwzhYiVET2uZNQe2WfCXD+rAbEkavqDbkAFiKRphj5CJCmW2LTYpd9n7MFRrioZq2aRW+cNUWSopVwM/ehEaqLLD+bG63EDgTYowtkvEMuWr+rpGR8haJy+JZVFpjwWO48/B2N1Y5oCeu0FD4ztNCGJO8=
