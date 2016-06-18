@@ -1,0 +1,13 @@
+name: Team 1
+twitter: Team1
+github: Team1/game
+members:
+  - name: Person One
+    twitter: PersonOne
+    github: PersonOne
+  - name: Person Two
+    twitter: TwoTwo
+    github:
+game: Game Name
+itch: https://game.itch.io/name
+achieves: [ 0, 2 ]
