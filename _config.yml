@@ -13,4 +13,4 @@ gems:
 assets:
     js_compressor: yui
 
-exclude: [.gitignore, Gemfile, Gemfile.lock, README.md, Rakefile, build]
+exclude: [.gitignore, Gemfile, Gemfile.lock, README.md, Rakefile, build, deploy.sh]
