@@ -4,13 +4,18 @@ permalink: pretty
 gems:
   - jekyll-assets
   - jekyll-sitemap
-  - jekyll-autolink_email
   - jekyll_version_plugin
   - bootstrap-sass
   - font-awesome-sass
   - mini_magick
 
 assets:
+  - "*.svg"
+
+assets:
     js_compressor: yui
+
+sources:
+  - _assets/images/icons
 
 exclude: [.gitignore, Gemfile, Gemfile.lock, README.md, Rakefile, build, deploy.sh]

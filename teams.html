@@ -2,53 +2,66 @@
 layout: default
 title: Teams
 ---
-
-<table class="table table-striped ">
-  <thead>
-    <tr>
-      <th data-field="team-name" data-sortable="true" colspan="2">Team Name</th>
-      <th data-field="game" data-sortable="true" colspan="2">Game Submission</th>
-      <th data-field="points" data-sortable="true">Points</th>
-  </thead>
-  <tbody>
-    {% assign ach_count = 0 %}
-    {% for team_hash in site.data.teams %}
-    {% assign team = team_hash[1] %}
-    <tr>
-      <td>
-        <strong>{{ team.name }}</strong>
-      </td>
-      <td>
-        {% if team.github %}<a href="http://github.com/{{ team.github }}"><span class="fa-stack fa-lg fa-fw">{% icon fa-square-o fa-stack-2x %}{% icon fa-github-alt fa-stack-1x %}</span></a>{% endif %}
-        {% if team.twitter %}<a href="http://twitter.com/{{ team.twitter }}"><span class="fa-stack fa-lg fa-fw">{% icon fa-square-o fa-stack-2x %}{% icon fa-twitter fa-stack-1x %}</span></a>{% endif %}
-      </td>
-      <td>
-        {% if team.game %}
-          {{ team.game }}
-        {% endif %}
-      </td>
-      <td>
-        {% if team.game %}
-          {% if team.itch %}<a href="team.itch"><span class="fa-stack fa-lg fa-fw">{% icon fa-square-o fa-stack-2x %}{% icon fa-gamepad fa-stack-1x %}</span></a></a>{% endif %}
-        {% endif %}
-      </td>
-      <td>
-        <i class="fa fa-trophy fa-2x trophy" ></i>
-        <span class="trophy-text" >{% if team.achieves %}
-          {{ team.achieves | size }}
-          {% assign ach_count = ach_count | plus: team.achieves.size %}
-          {% else %}
-          0
-        {% endif %}</span>
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-  <tfoot>
-    <tr>
-      <th colspan="2" class="text-right">Total Teams: {{ site.data.teams | size }}</td>
-      <td></td>
-      <th colspan="2" class="text-right">Total Points: {{ ach_count }}</td>
-    </tr>
-  </tfoot>
-</table>
+<div class="row">
+  <div class="col-md-12">
+    <table
+        id="team-list"
+        class="table table-striped"
+        data-toggle="table"
+        data-sort-name="team-name"
+        data-sort-order="asc"
+        data-search="true"
+         >
+      <thead>
+        <tr>
+          <th data-field="team-name" data-sortable="true">Team Name</th>
+          <th data-field="team-links" data-sortable="false"></th>
+          <th data-field="game-name" data-sortable="true">Game Submission</th>
+          <th data-field="game-links" data-sortable="false"></th>
+          <th data-field="points" data-sortable="true">Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% assign ach_count = 0 %}
+        {% for team_hash in site.data.teams %}
+        {% assign team = team_hash[1] %}
+        <tr>
+          <td>
+            <strong>{{ team.name }}</strong>
+          </td>
+          <td>
+            {% if team.github %}<a href="http://github.com/{{ team.github }}"><span class="fa-stack fa-lg fa-fw">{% icon fa-square-o fa-stack-2x %}{% icon fa-github-alt fa-stack-1x %}</span></a>{% endif %}
+            {% if team.twitter %}<a href="http://twitter.com/{{ team.twitter }}"><span class="fa-stack fa-lg fa-fw">{% icon fa-square-o fa-stack-2x %}{% icon fa-twitter fa-stack-1x %}</span></a>{% endif %}
+          </td>
+          <td>
+            {% if team.game %}
+              {{ team.game }}
+            {% endif %}
+          </td>
+          <td>
+            {% if team.game %}
+              {% if team.itch %}<a href="team.itch"><span class="fa-stack fa-lg fa-fw">{% icon fa-square-o fa-stack-2x %}{% icon fa-gamepad fa-stack-1x %}</span></a></a>{% endif %}
+            {% endif %}
+          </td>
+          <td>
+            <i class="fa fa-trophy fa-2x trophy" ></i>
+            <span class="trophy-text" >{% if team.achieves %}
+              {{ team.achieves | size }}
+              {% assign ach_count = ach_count | plus: team.achieves.size %}
+              {% else %}
+              0
+            {% endif %}</span>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2" class="text-right">Total Teams: {{ site.data.teams | size }}</td>
+          <td></td>
+          <th colspan="2" class="text-right">Total Points: {{ ach_count }}</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>

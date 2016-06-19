@@ -1,0 +1,33 @@
+---
+layout: default
+title: Achievements
+---
+<div class="row">
+  <div class="col-md-12">
+    <table
+        id="achieve-list"
+        class="table table-striped"
+        data-toggle="table"
+        data-sort-name="achieve-name"
+        data-sort-order="asc"
+        data-search="true"
+         >
+      <thead>
+        <tr>
+          <th data-field="icon" data-sortable="false"></th>
+          <th data-field="name" data-sortable="true">Achievement</th>
+          <th data-field="desc" data-sortable="false">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for ach in site.data.achievements %}
+        <tr>
+          <td class="text-center">{% include ach-icon.html icon=ach.icon %}</td>
+          <td>{{ ach.name }}</td>
+          <td>{{ ach.desc }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
