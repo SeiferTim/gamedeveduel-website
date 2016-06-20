@@ -23,11 +23,10 @@ title: Teams
       </thead>
       <tbody>
         {% assign ach_count = 0 %}
-        {% for team_hash in site.data.teams %}
-        {% assign team = team_hash[1] %}
+        {% for team in site.data.teams %}
         <tr>
           <td>
-            <strong>{{ team.name }}</strong>
+            <strong><a href="/teams/{{ team.team_name | slugify }}">{{ team.team_name }}</a></strong>
           </td>
           <td>
             {% if team.github %}<a href="http://github.com/{{ team.github }}"><span class="fa-stack fa-lg fa-fw">{% icon fa-square-o fa-stack-2x %}{% icon fa-github-alt fa-stack-1x %}</span></a>{% endif %}

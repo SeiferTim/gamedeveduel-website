@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body role="document" >
+
+    {% include navbar.html %}
+
+    <div class="container" role="main" >
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1>{{ page.team_name }}</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center">{% if page.game %}{{ page.game }}{% else %}TBD{% endif %}</h2>
+          <div>
+            {% if page.titlescreen %}
+            {% img titles/{{\ page.titlescreen\ }} height:240px width:320px class:"img-thumbnail img-responsive center-block" %}
+            {% else %}
+            {% img titles/blank height:240px width:320px class:"img-thumbnail img-responsive center-block" %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Team Members</h2>
+          <table
+              id="member-list"
+              class="table table-striped"
+              data-toggle="table"
+              data-sort-name="member-name"
+              data-sort-order="asc"
+               >
+            <thead>
+              <tr>
+                <th data-field="member-name" data-sortable="true">Member Name</th>
+                <th data-field="member-links" data-sortable="false"></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for member in page.members %}
+                <tr>
+                  <td>{{ member.name }}</td>
+                  <td></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

@@ -1,0 +1,29 @@
+- team_name: Team 1
+  twitter: Team1
+  github: Team1/game
+  members:
+    - name: Person One
+      twitter: PersonOne
+      github: PersonOne
+    - name: Person Two
+      twitter: TwoTwo
+      github:
+  game: Game Name
+  titlescreen:
+  itch: https://game.itch.io/name
+  achieves: [ 0, 2 ]
+
+- team_name: Cool Team
+  twitter: CoolTeam
+  github: CoolTeam/our-game
+  members:
+    - name: John Smith
+      twitter: JSmith
+      github: jsmith
+    - name: Tom Jones
+      twitter: TomJones
+      github: tjones
+  game: Our Cool Game
+  titlescreen: 
+  itch: https://cool.itch.io/coolgame
+  achieves: [ 0, 2, 5, 7, 8 ]

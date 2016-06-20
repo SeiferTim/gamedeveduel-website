@@ -18,4 +18,17 @@ assets:
 sources:
   - _assets/images/icons
 
+page_gen-dirs: true
+page_gen:
+  - data: 'achievements'
+    template: 'team_page'
+    name: "number"
+    dir: "achieves"
+  - data: 'teams.'
+    template: 'team_page'
+    name: "team_name"
+    dir: "teams"
+
+
+
 exclude: [.gitignore, Gemfile, Gemfile.lock, README.md, Rakefile, build, deploy.sh]

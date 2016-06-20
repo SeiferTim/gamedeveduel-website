@@ -1,9 +1,9 @@
 - number: 0
-  name: "Sign-up!"
+  ach_name: "Sign-up!"
   desc: "Registered your team for the Jam"
   icon: dark-squad
 
 - number: 1
-  name: "Start Talking"
+  ach_name: "Start Talking"
   desc: "Sign up for the Slack and post an introduction message"
   icon: conversation

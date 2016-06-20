@@ -22,8 +22,8 @@ title: Achievements
       <tbody>
         {% for ach in site.data.achievements %}
         <tr>
-          <td class="text-center">{% include ach-icon.html icon=ach.icon %}</td>
-          <td>{{ ach.name }}</td>
+          <td class="text-center"><a href="/achieves/{{ ach.number }}">{% include ach-icon.html icon=ach.icon %}</a></td>
+          <td><a href="/achieves/{{ ach.number }}">{{ ach.ach_name }}</a></td>
           <td>{{ ach.desc }}</td>
         </tr>
         {% endfor %}
