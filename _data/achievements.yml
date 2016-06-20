@@ -1,9 +1,254 @@
+# WEEK 1
+
 - number: 0
-  ach_name: "Sign-up!"
-  desc: "Registered your team for the Jam"
-  icon: dark-squad
+  ach_name: "Freebie"
+  desc: "Sign into slack and post a team name in the #gamedevduelcheevos channel (https://stlgamedev.slack.com/messages/gamedevduelcheevos)"
+  icon: shiny-purse
 
 - number: 1
-  ach_name: "Start Talking"
-  desc: "Sign up for the Slack and post an introduction message"
-  icon: conversation
+  ach_name: "Movement"
+  desc: "Make something happen when you interact with the game"
+  icon: jump-across
+
+- number: 2
+  ach_name: "Artsy"
+  desc: "Add at least one art asset into the game"
+  icon: palette
+
+- number: 3
+  ach_name: "Slacker"
+  desc: "Create a private slack channel and invite your team to coordinate game progress"
+  icon: dark-squad
+
+- number: 4
+  ach_name: "Tracker"
+  desc: "Set up a Kanban board (https://trello.com/ or the tool of your choice) to prioritize tasks and track progress"
+  icon: treasure-map
+
+- number: 5
+  ach_name: "Check-in #1"
+  desc: "Meet up with your team in person. We recommend the check-in event at Riot Games on July 6th (featuring Butterscotch Shenanigans)"
+  icon: hill-conquest
+
+- number: 6
+  ach_name: "Git it on"
+  desc: "If your game isn't in version control by now, add it to version control (github.com, bitbucket.com, Subversion)"
+  icon: juggler
+
+- number: 7
+  ach_name: "Hardcore #1"
+  desc: "Everyone on the team worked on the game for over 3 hours in one sitting before July 8th"
+  icon: confrontation
+
+- number: 8
+  ach_name: "Weekender #1"
+  desc: "At least one person on the team spent at least 8 hours over the weekend of July 1st to July 3rd working on the game"
+  icon: sands-of-time
+
+- number: 9
+  ach_name: "Game Loop"
+  desc: "You have the core gameplay loop working in your game"
+  icon: cycle
+
+# WEEK 2
+
+- number: 10
+  ach_name: "Named"
+  desc: "Finalize the name of your game so that you can begin marketing it"
+  icon: fountain-pen
+
+- number: 11
+  ach_name: "StandUp"
+  desc: "Post a Daily Standup in the Slack channel. In a Standup, mention what you did yesterday, and what you plan to do today. Standups are a great way to keep you focused on your goals!"
+  icon: muscle-up
+
+- number: 12
+  ach_name: "Screenshot Saturday #1"
+  desc: "July 9th Screenshot Saturday! Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
+  icon: photo-camera
+
+- number: 13
+  ach_name: "Publisher"
+  desc: "Build an itch.io page for your game under our Game Jam"
+  icon: book-cover
+
+- number: 14
+  ach_name: "Songster"
+  desc: "Have at least one song in your game"
+  icon: guitar
+
+- number: 15
+  ach_name: "Check-in #2"
+  desc: "Meet up with your team in person to evaluate progress and discuss plans. If your whole team is over 21, meet up at the check-in on July 14th at Orbit Pinball Lounge."
+  icon: hill-conquest
+
+- number: 16
+  ach_name: "Death"
+  desc: "Your game has a loss state (free achievement if this is not applicable)"
+  icon: tombstone
+
+- number: 17
+  ach_name: "Winner"
+  desc: "Your game has a level or sub-section complete state working (free achievement if this is not applicable)"
+  icon: checkered-flag
+
+- number: 18
+  ach_name: "Hardcore #2"
+  desc: "Everyone on the team worked on the game for over 3 hours in one sitting between July 8th and July 15th"
+  icon: confrontation
+
+- number: 19
+  ach_name: "Weekender #2"
+  desc: "At least one person on the team spent at least 8 hours over the weekend of July 8th to July 10th working on the game"
+  icon: sands-of-time
+
+# WEEK 3
+
+- number: 20
+  ach_name: "Menus"
+  desc: "Add a title screen to your game (free achievement if this is not applicable)"
+  icon: read
+
+- number: 21
+  ach_name: "Screenshot Saturday #2"
+  desc: "July 16 Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
+  icon: photo-camera
+
+- number: 22
+  ach_name: "Face Off"
+  desc: "Add at least one sound effect to the game that was recorded by a team member and uses either the environment or a face"
+  icon: sing
+
+- number: 23
+  ach_name: "Feedback"
+  desc: "Have someone play your game"
+  icon: tabletop-players
+
+- number: 24
+  ach_name: "Check-in #3"
+  desc: "Meet up with your team in person. We recommend the check-in event at Riot Games on July 20th"
+  icon: hill-conquest
+
+- number: 25
+  ach_name: "The Chopping Block"
+  desc: "Talk to the team and cut at least two planned features and/or assets from your game"
+  icon: axe-in-stump
+
+- number: 26
+  ach_name: "Diverse"
+  desc: "If your game has more than one character in it, make sure at least one of them is not a straight white person (free achievement if this is not applicable)"
+  icon: duality
+
+- number: 27
+  ach_name: "Archie"
+  desc: "Put a reference to or asset of the St. Louis arch somewhere in your game"
+  icon: omega
+
+- number: 28
+  ach_name: "Hardcore #3"
+  desc: "Everyone on the team worked on the game for over 3 hours in one sitting between July 15th and July 22nd"
+  icon: confrontation
+
+- number: 29
+  ach_name: "Weekender #3"
+  desc: "At least one person on the team spent at least 8 hours over the weekend of July 15th to July 17th working on the game"
+  icon: sands-of-time
+
+# WEEK 4
+
+- number: 30
+  ach_name: "Check-in #4"
+  desc: "Meet up with your team in person. We recommend the check-in event the last week of July"
+  icon: hill-conquest
+
+- number: 31
+  ach_name: "Screenshot Saturday #3"
+  desc: "July 23rd Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
+  icon: photo-camera
+
+- number: 32
+  ach_name: "Screenshot Saturday #4"
+  desc: "July 30th Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
+  icon: photo-camera
+
+- number: 33
+  ach_name: "Finish Line"
+  desc: "Finish your game!"
+  icon: graduate-cap
+
+- number: 34
+  ach_name: "Control for All"
+  desc: "Your game supports both mouse and keyboard and controller input methods"
+  icon: gamepad
+
+- number: 35
+  ach_name: "Credits"
+  desc: "Add a credits screen to your game"
+  icon: folded-paper
+
+- number: 36
+  ach_name: "Made in St Louis"
+  desc: "Add the Made in St. Louis Splash Screen to your game"
+  icon: wax-seal
+
+- number: 37
+  ach_name: "Hardcore #4"
+  desc: "Everyone on the team worked on the game for over 3 hours in one sitting between July 22nd and July 29th"
+  icon: confrontation
+
+- number: 38
+  ach_name: "Weekender #4"
+  desc: "At least one person on the team spent at least 8 hours over the weekend of July 22nd to July 25th working on the game"
+  icon: sands-of-time
+
+- number: 39
+  ach_name: "Weekender #5"
+  desc: "At least one person on the team spent at least 8 hours over the weekend of July 29th to July 31st working on the game"
+  icon: sands-of-time
+
+# whole campaign??
+
+- number: 40
+  ach_name: "Buddy-Up"
+  desc: "Your game features multiplayer gameplay (local or online)"
+  icon: backup
+
+- number: 41
+  ach_name: "..."
+  desc: "Your game contains no written or spoken words, not even instructions (but should be intuitive!)"
+  icon: nothing-to-say
+
+- number: 42
+  ach_name: "Pacifism"
+  desc: "Your game contains no violence or gore"
+  icon: shaking-hands
+
+- number: 43
+  ach_name: "Public Domain"
+  desc: "Your game's story, character(s), and/or theme are based on works in the public domain"
+  icon: bookshelf
+
+- number: 44
+  ach_name: "Magically Delicious"
+  desc: "Your game contains elements of magic, witchcraft, and/or wizardry"
+  icon: magick-trick
+
+- number: 45
+  ach_name: "Scientifically Accurate"
+  desc: "Your game contains no fantastical elements; only things that exist in the 'real world'"
+  icon: microchip
+
+- number: 46
+  ach_name: "Historical"
+  desc: "Your game is based on an actual historic event - even if only loosely"
+  icon: tied-scroll
+
+- number: 47
+  ach_name: "One Screen"
+  desc: "Your game takes place entirely on a single screen (Pac-man, Donkey Kong, etc)"
+  icon: tv
+
+- number: 48
+  ach_name: "Written Word"
+  desc: "Your game relies heavily on written word, dialog, story (interactive fiction, RPGs, etc)"
+  icon: bookmarklet
