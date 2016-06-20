@@ -11,7 +11,7 @@
   game: Game Name
   titlescreen:
   itch: https://game.itch.io/name
-  achieves: [ 0, 2 ]
+  achieves: [ 0 ]
 
 - team_name: Cool Team
   twitter: CoolTeam
@@ -24,6 +24,6 @@
       twitter: TomJones
       github: tjones
   game: Our Cool Game
-  titlescreen: 
+  titlescreen:
   itch: https://cool.itch.io/coolgame
-  achieves: [ 0, 2, 5, 7, 8 ]
+  achieves: [ 0, 1 ]

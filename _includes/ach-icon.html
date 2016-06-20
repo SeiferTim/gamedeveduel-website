@@ -1,1 +1,3 @@
-{% img icons/{{\ include.icon\ }} class:ach-icon %}
+{% assign ach_obj = site.data.achievements[include.icon] %}
+{% assign icon_name = ach_obj.icon %}
+<span style="display:inline-block;" data-toggle="tooltip" data-placement="right" data-html="true" title="<strong>{{ ach_obj.ach_name }}</strong><br/>{{ ach_obj.desc }}" >{% img icons/{{\ icon_name\ }} class:ach-icon %}</span>

@@ -20,10 +20,6 @@ sources:
 
 page_gen-dirs: true
 page_gen:
-  - data: 'achievements'
-    template: 'team_page'
-    name: "number"
-    dir: "achieves"
   - data: 'teams.'
     template: 'team_page'
     name: "team_name"

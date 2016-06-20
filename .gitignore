@@ -1,6 +1,4 @@
 _site
 .sass-cache
 .jekyll-metadata
-_asset-cache
-_asset-cache/*
 .asset-cache/

@@ -10,8 +10,22 @@
     <div class="container" role="main" >
 
       <div class="row">
-        <div class="col-md-12">
-          <h1>{{ page.team_name }}</h1>
+        <div class="col-md-10">
+
+              <h1><small>{% if page.achieves %}
+              {% assign ach_no = page.achieves.size %}
+              {% else %}
+              {% assign ach_no = 0 %}
+              {% endif %}
+              {% include trophy.html count=ach_no 2x=false %}</small>
+
+              <strong>{{ page.team_name }}</strong></h1>
+
+
+        </div>
+        <div class="col-md-2 text-right">
+          {% if page.github %}{% include github-link.html link=page.github %}{% endif %}
+          {% if page.twitter %}{% include twitter-link.html link=page.twitter %}{% endif %}
         </div>
       </div>
 
@@ -25,6 +39,11 @@
             {% img titles/blank height:240px width:320px class:"img-thumbnail img-responsive center-block" %}
             {% endif %}
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          {% if page.itch %}<a href="{{ page.itch }}">View on Itch.io</a>{% endif %}
         </div>
       </div>
 
@@ -48,7 +67,8 @@
               {% for member in page.members %}
                 <tr>
                   <td>{{ member.name }}</td>
-                  <td></td>
+                  <td class="text-right">{% if member.github %}{% include github-link.html link=member.github %}{% endif %}
+                    {% if member.twitter %}{% include twitter-link.html link=member.twitter %}{% endif %}</td>
                 </tr>
                 {% endfor %}
             </tbody>
@@ -56,9 +76,21 @@
         </div>
       </div>
 
-
-
-
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Earned Achievements</h2>
+          <div class="achieves panel panel-default">
+            <div class="panel-body">
+              <ul class="ach-list ">
+                {% if page.achieves %}
+                {% for ach in page.achieves %}
+                <li >{% include ach-icon.html icon=ach %}</li>
+                {% endfor %}
+                {% endif %}
+              </ul>
+            </div>
+        </div>
+      </div>
     </div>
 
     {% include footer.html %}
