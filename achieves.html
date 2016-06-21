@@ -14,7 +14,6 @@ title: Achievements
          >
       <thead>
         <tr>
-          <th data-field="number" data-sortable="true" data-visible="false" >#</th>
           <th data-field="icon" data-sortable="false"></th>
           <th data-field="achieve-name" data-sortable="true">Achievement</th>
           <th data-field="desc" data-sortable="false">Description</th>
@@ -24,7 +23,6 @@ title: Achievements
       <tbody>
         {% for ach in site.data.achievements | sort: 'number', 'week'  %}
         <tr>
-          <td>{{ ach.number }}</td>
           <td class="text-center">{% include ach-icon.html icon=ach.number %}</td>
           <td><strong>{{ ach.ach_name }}</strong></td>
           <td>{{ ach.desc }}</td>
