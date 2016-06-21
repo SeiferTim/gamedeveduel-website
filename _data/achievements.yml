@@ -4,51 +4,61 @@
   ach_name: "Freebie"
   desc: "Sign into slack and post a team name in the #gamedevduelcheevos channel (https://stlgamedev.slack.com/messages/gamedevduelcheevos)"
   icon: shiny-purse
+  week: 1
 
 - number: 1
   ach_name: "Movement"
   desc: "Make something happen when you interact with the game"
   icon: jump-across
+  week: 1
 
 - number: 2
   ach_name: "Artsy"
   desc: "Add at least one art asset into the game"
   icon: palette
+  week: 1
 
 - number: 3
   ach_name: "Slacker"
   desc: "Create a private slack channel and invite your team to coordinate game progress"
   icon: dark-squad
+  week: 1
 
 - number: 4
   ach_name: "Tracker"
   desc: "Set up a Kanban board (https://trello.com/ or the tool of your choice) to prioritize tasks and track progress"
   icon: treasure-map
+  week: 1
 
 - number: 5
   ach_name: "Check-in #1"
   desc: "Meet up with your team in person. We recommend the check-in event at Riot Games on July 6th (featuring Butterscotch Shenanigans)"
   icon: hill-conquest
+  week: 1
 
 - number: 6
   ach_name: "Git it on"
   desc: "If your game isn't in version control by now, add it to version control (github.com, bitbucket.com, Subversion)"
   icon: juggler
+  week: 1
 
 - number: 7
   ach_name: "Hardcore #1"
   desc: "Everyone on the team worked on the game for over 3 hours in one sitting before July 8th"
   icon: confrontation
+  week: 1
 
 - number: 8
   ach_name: "Weekender #1"
   desc: "At least one person on the team spent at least 8 hours over the weekend of July 1st to July 3rd working on the game"
   icon: sands-of-time
+  week: 1
 
 - number: 9
   ach_name: "Game Loop"
   desc: "You have the core gameplay loop working in your game"
   icon: cycle
+  week: 1
 
 # WEEK 2
 
@@ -56,51 +66,61 @@
   ach_name: "Named"
   desc: "Finalize the name of your game so that you can begin marketing it"
   icon: fountain-pen
+  week: 2
 
 - number: 11
   ach_name: "StandUp"
   desc: "Post a Daily Standup in the Slack channel. In a Standup, mention what you did yesterday, and what you plan to do today. Standups are a great way to keep you focused on your goals!"
   icon: muscle-up
+  week: 2
 
 - number: 12
   ach_name: "Screenshot Saturday #1"
   desc: "July 9th Screenshot Saturday! Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
   icon: photo-camera
+  week: 2
 
 - number: 13
   ach_name: "Publisher"
   desc: "Build an itch.io page for your game under our Game Jam"
   icon: book-cover
+  week: 2
 
 - number: 14
   ach_name: "Songster"
   desc: "Have at least one song in your game"
   icon: guitar
+  week: 2
 
 - number: 15
   ach_name: "Check-in #2"
   desc: "Meet up with your team in person to evaluate progress and discuss plans. If your whole team is over 21, meet up at the check-in on July 14th at Orbit Pinball Lounge."
   icon: hill-conquest
+  week: 2
 
 - number: 16
   ach_name: "Death"
   desc: "Your game has a loss state (free achievement if this is not applicable)"
   icon: tombstone
+  week: 2
 
 - number: 17
   ach_name: "Winner"
   desc: "Your game has a level or sub-section complete state working (free achievement if this is not applicable)"
   icon: checkered-flag
+  week: 2
 
 - number: 18
   ach_name: "Hardcore #2"
   desc: "Everyone on the team worked on the game for over 3 hours in one sitting between July 8th and July 15th"
   icon: confrontation
+  week: 2
 
 - number: 19
   ach_name: "Weekender #2"
   desc: "At least one person on the team spent at least 8 hours over the weekend of July 8th to July 10th working on the game"
   icon: sands-of-time
+  week: 2
 
 # WEEK 3
 
@@ -108,51 +128,61 @@
   ach_name: "Menus"
   desc: "Add a title screen to your game (free achievement if this is not applicable)"
   icon: read
+  week: 3
 
 - number: 21
   ach_name: "Screenshot Saturday #2"
   desc: "July 16 Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
   icon: photo-camera
+  week: 3
 
 - number: 22
   ach_name: "Face Off"
   desc: "Add at least one sound effect to the game that was recorded by a team member and uses either the environment or a face"
   icon: sing
+  week: 3
 
 - number: 23
   ach_name: "Feedback"
   desc: "Have someone play your game"
   icon: tabletop-players
+  week: 3
 
 - number: 24
   ach_name: "Check-in #3"
   desc: "Meet up with your team in person. We recommend the check-in event at Riot Games on July 20th"
   icon: hill-conquest
+  week: 3
 
 - number: 25
   ach_name: "The Chopping Block"
   desc: "Talk to the team and cut at least two planned features and/or assets from your game"
   icon: axe-in-stump
+  week: 3
 
 - number: 26
-  ach_name: "Diverse"
-  desc: "If your game has more than one character in it, make sure at least one of them is not a straight white person (free achievement if this is not applicable)"
-  icon: duality
+  ach_name: "Control for All"
+  desc: "Your game supports both mouse and keyboard and controller input methods"
+  icon: gamepad
+  week: 3
 
 - number: 27
-  ach_name: "Archie"
-  desc: "Put a reference to or asset of the St. Louis arch somewhere in your game"
-  icon: omega
+  ach_name: "Credits"
+  desc: "Add a credits screen to your game"
+  icon: folded-paper
+  week: 3
 
 - number: 28
   ach_name: "Hardcore #3"
   desc: "Everyone on the team worked on the game for over 3 hours in one sitting between July 15th and July 22nd"
   icon: confrontation
+  week: 3
 
 - number: 29
   ach_name: "Weekender #3"
   desc: "At least one person on the team spent at least 8 hours over the weekend of July 15th to July 17th working on the game"
   icon: sands-of-time
+  week: 3
 
 # WEEK 4
 
@@ -160,95 +190,120 @@
   ach_name: "Check-in #4"
   desc: "Meet up with your team in person. We recommend the check-in event the last week of July"
   icon: hill-conquest
+  week: 4
 
 - number: 31
   ach_name: "Screenshot Saturday #3"
   desc: "July 23rd Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
   icon: photo-camera
+  week: 4
 
 - number: 32
   ach_name: "Screenshot Saturday #4"
   desc: "July 30th Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
   icon: photo-camera
+  week: 4
 
 - number: 33
   ach_name: "Finish Line"
   desc: "Finish your game!"
   icon: graduate-cap
+  week: 4
 
 - number: 34
-  ach_name: "Control for All"
-  desc: "Your game supports both mouse and keyboard and controller input methods"
-  icon: gamepad
+  ach_name: "Promo Video"
+  desc: "Your game has a gameplay video on Youtube and/or your itch.io game page"
+  icon: look-at
+  week: 4
 
 - number: 35
-  ach_name: "Credits"
-  desc: "Add a credits screen to your game"
-  icon: folded-paper
+  ach_name: "In-Store"
+  desc: "Your game has a retail-style box complete with screenshots and a witty game description"
+  icon: cardboard-box
+  week: 4
 
 - number: 36
   ach_name: "Made in St Louis"
   desc: "Add the Made in St. Louis Splash Screen to your game"
   icon: wax-seal
+  week: 4
 
 - number: 37
   ach_name: "Hardcore #4"
   desc: "Everyone on the team worked on the game for over 3 hours in one sitting between July 22nd and July 29th"
   icon: confrontation
+  week: 4
 
 - number: 38
   ach_name: "Weekender #4"
   desc: "At least one person on the team spent at least 8 hours over the weekend of July 22nd to July 25th working on the game"
   icon: sands-of-time
+  week: 4
 
 - number: 39
   ach_name: "Weekender #5"
   desc: "At least one person on the team spent at least 8 hours over the weekend of July 29th to July 31st working on the game"
   icon: sands-of-time
+  week: 4
 
-# whole campaign??
+# Week 0
 
 - number: 40
-  ach_name: "Buddy-Up"
-  desc: "Your game features multiplayer gameplay (local or online)"
-  icon: backup
+  ach_name: "Diverse"
+  desc: "If your game has characters in it, make sure at least one of them is not a straight white person (free if your game has no characters)"
+  icon: duality
+  week: 0
 
 - number: 41
-  ach_name: "..."
-  desc: "Your game contains no written or spoken words, not even instructions (but should be intuitive!)"
-  icon: nothing-to-say
+  ach_name: "Open Source"
+  desc: "Your game is open source and the code is available in a public source control repository such as github.com or bitbucket.com"
+  icon: checkbox-tree
+  week: 0
 
 - number: 42
-  ach_name: "Pacifism"
-  desc: "Your game contains no violence or gore"
-  icon: shaking-hands
+  ach_name: "The Internet"
+  desc: "Your game contains a picture, gif, or video of a cat"
+  icon: white-cat
+  week: 0
 
 - number: 43
-  ach_name: "Public Domain"
-  desc: "Your game's story, character(s), and/or theme are based on works in the public domain"
-  icon: bookshelf
+  ach_name: "Committed"
+  desc: "Someone on your team has made at least one commit to source control on every day in July"
+  icon: button-finger
+  week: 0
 
 - number: 44
-  ach_name: "Magically Delicious"
-  desc: "Your game contains elements of magic, witchcraft, and/or wizardry"
-  icon: magick-trick
+  ach_name: "Multiple Interpretations"
+  desc: "Your game unquestionably demonstrates more than one interperitation of the Game Jam theme"
+  icon: think
+  week: 0
 
 - number: 45
-  ach_name: "Scientifically Accurate"
-  desc: "Your game contains no fantastical elements; only things that exist in the 'real world'"
-  icon: microchip
+  ach_name: "Accessible"
+  desc: "Your game can be played effectively by someone who is either blind or has no limbs"
+  icon: joystick
+  week: 0
 
 - number: 46
-  ach_name: "Historical"
-  desc: "Your game is based on an actual historic event - even if only loosely"
-  icon: tied-scroll
+  ach_name: "Character Development"
+  desc: "A main character in your game changes over the course of the game (free if your game has no characters)"
+  icon: deadly-strike
+  week: 0
 
 - number: 47
-  ach_name: "One Screen"
-  desc: "Your game takes place entirely on a single screen (Pac-man, Donkey Kong, etc)"
-  icon: tv
+  ach_name: "Shared Assets"
+  desc: "Your game features an asset or character from some other gamedevduel team. (coordinate through Slack)"
+  icon: metroid
+  week: 0
 
 - number: 48
-  ach_name: "Written Word"
-  desc: "Your game relies heavily on written word, dialog, story (interactive fiction, RPGs, etc)"
-  icon: bookmarklet
+  ach_name: "Orchestrated"
+  desc: "Your game features at least three songs that were written specifically for your game"
+  icon: ocarina
+  week: 0
+
+- number: 49
+  ach_name: "Archie"
+  desc: "Put a reference to or asset of the St. Louis arch somewhere in your game"
+  icon: omega
+  week: 0
