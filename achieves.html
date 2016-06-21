@@ -27,12 +27,18 @@ title: Achievements
           <td class="text-center">{% include ach-icon.html icon=ach.number %}</td>
           <td><strong>{{ ach.ach_name }}</strong></td>
           <td>{{ ach.desc }}</td>
-          <td class="text-center">{% if ach.week == 0 %}
-            <i class="fa fa-refresh fa-spin fa-2x fa-fw"></i>
-            {% else %}
-            {{ ach.week }}
-            {% endif %}
-          </td>
+          <td class="text-center">{% case ach.week %}
+            {% when 0 %}
+            Ongoing
+            {% when 1 %}
+            First Week
+            {% when 2 %}
+            Second Week
+            {% when 3 %}
+            Third Week
+            {% when 4 %}
+            Fourth Week
+          {% endcase %}</td>
         </tr>
         {% endif %}
         {% endfor %}
@@ -41,11 +47,35 @@ title: Achievements
   </div>
 </div>
 <script>
+  function getNo(a) {
+    var i = 0;
+    switch (a.trim()) {
+      case "Ongoing":
+        i = 0;
+        break;
+      case "First Week":
+        i = 1;
+        break;
+      case "Second Week":
+        i = 2;
+        break;
+      case "Third Week":
+        i = 3;
+        break;
+      case "Fourth Week":
+        i = 4;
+        break;
+      default:
+        i = 0;
+    }
+    return i;
+  }
+
   function weekSort(a, b) {
-    if (a > 4 && b <= 4) return 1;
-    if (a <= 4 && b > 4) return -1;
-    if (a > b) return -1;
-    if (a < b) return 1;
+    var i = getNo(a);
+    var j = getNo(b);
+    if (i < j) return -1;
+    if (i > j) return 1;
     return 0;
   }
 </script>
