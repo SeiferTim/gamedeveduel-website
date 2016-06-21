@@ -17,24 +17,35 @@ title: Achievements
           <th data-field="icon" data-sortable="false"></th>
           <th data-field="achieve-name" data-sortable="true">Achievement</th>
           <th data-field="desc" data-sortable="false">Description</th>
-          <th data-field="week" data-sortable="true" >Week</th>
+          <th data-field="week" data-sortable="true" data-sorter="weekSort" >Phase</th>
         </tr>
       </thead>
       <tbody>
         {% for ach in site.data.achievements | sort: 'number', 'week'  %}
+        {% if ach.week <= 1 %}
         <tr>
           <td class="text-center">{% include ach-icon.html icon=ach.number %}</td>
           <td><strong>{{ ach.ach_name }}</strong></td>
           <td>{{ ach.desc }}</td>
-          <td>{% if ach.week == 0 %}
-            --
+          <td class="text-center">{% if ach.week == 0 %}
+            <i class="fa fa-refresh fa-spin fa-2x fa-fw"></i>
             {% else %}
             {{ ach.week }}
             {% endif %}
           </td>
         </tr>
+        {% endif %}
         {% endfor %}
       </tbody>
     </table>
   </div>
 </div>
+<script>
+  function weekSort(a, b) {
+    if (a > 4 && b <= 4) return 1;
+    if (a <= 4 && b > 4) return -1;
+    if (a > b) return -1;
+    if (a < b) return 1;
+    return 0;
+  }
+</script>

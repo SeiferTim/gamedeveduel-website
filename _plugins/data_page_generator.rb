@@ -80,15 +80,19 @@ module Jekyll
             # records is the list of records defined in _data.yml
             # for which we want to generate different pages
             records = nil
-            data_spec['data'].split('.').each do |level|
-              if records.nil?
-                records = site.data[level]
-              else
-                records = records[level]
+            if data_spec['data']
+              data_spec['data'].split('.').each do |level|
+                if records.nil?
+                  records = site.data[level]
+                else
+                  records = records[level]
+                end
               end
-            end
-            records.each do |record|
-              site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension)
+              if records
+                records.each do |record|
+                  site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension)
+                end
+              end
             end
           else
             puts "error. could not find template #{template}" if not site.layouts.key? template

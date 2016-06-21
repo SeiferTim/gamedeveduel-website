@@ -79,6 +79,13 @@
       <div class="row">
         <div class="col-md-12">
           <h2>Earned Achievements</h2>
+          <div class="progress">
+
+            {% assign percent = ach_no | times:100 | divided_by:site.data.achievements.size %}
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="{{ percent }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ percent }}%;">
+              {{ percent }}%
+            </div>
+          </div>
           <div class="achieves panel panel-default">
             <div class="panel-body">
               <ul class="ach-list ">

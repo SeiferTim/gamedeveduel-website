@@ -8,17 +8,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/"> Game Dev Duel - Slow Jam 2016</a>
+      <a class="navbar-brand" href="/"> {{ site.title }}</a>
     </div>
-
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %} class="active" {% endif %}><a href="/">Home {% if page.title == "Home" %}<span class="sr-only">(current)</span>{% endif %}</a></li>
+        <li {% if page.title == "FAQ" %} class="active" {% endif %}><a href="/faq">FAQ {% if page.title == "FAQ" %}<span class="sr-only">(current)</span>{% endif %}</a></li>
         <li {% if page.title == "Teams" %} class="active" {% endif %}><a href="/teams">Teams {% if page.title == "Teams" %}<span class="sr-only">(current)</span>{% endif %}</a></li>
         <li {% if page.title == "Achievements" %} class="active" {% endif %}><a href="/achieves">Achievements {% if page.title == "Achievements" %}<span class="sr-only">(current)</span>{% endif %}</a></li>
       </ul>
-
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

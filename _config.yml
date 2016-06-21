@@ -20,7 +20,7 @@ sources:
 
 page_gen-dirs: true
 page_gen:
-  - data: 'teams.'
+  - data: 'teams'
     template: 'team_page'
     name: "team_name"
     dir: "teams"
@@ -28,3 +28,5 @@ page_gen:
 
 
 exclude: [.gitignore, Gemfile, Gemfile.lock, README.md, Rakefile, build, deploy.sh]
+
+title: "Game Dev Duel - Slow Jam 2016"

@@ -1,29 +1,29 @@
-- team_name: Team 1
-  twitter: Team1
-  github: Team1/game
+#- team_name:
+#  twitter:
+#  github:
+#  members:
+#    - name:
+#      twitter:
+#      github:
+#    - name:
+#      twitter:
+#      github:
+#  game:
+#  titlescreen:
+#  itch:
+#  achieves: [ ]
+#
+- team_name: Test
+  twitter:
+  github:
   members:
-    - name: Person One
-      twitter: PersonOne
-      github: PersonOne
-    - name: Person Two
-      twitter: TwoTwo
+    - name: test
+      twitter:
       github:
-  game: Game Name
+    - name: test 2
+      twitter:
+      github:
+  game:
   titlescreen:
-  itch: https://game.itch.io/name
-  achieves: [ 0 ]
-
-- team_name: Cool Team
-  twitter: CoolTeam
-  github: CoolTeam/our-game
-  members:
-    - name: John Smith
-      twitter: JSmith
-      github: jsmith
-    - name: Tom Jones
-      twitter: TomJones
-      github: tjones
-  game: Our Cool Game
-  titlescreen:
-  itch: https://cool.itch.io/coolgame
-  achieves: [ 0, 1 ]
+  itch:
+  achieves: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]

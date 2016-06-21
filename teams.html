@@ -3,6 +3,11 @@ layout: default
 title: Teams
 ---
 <div class="row">
+  <div class="col-md-12 text-center">
+    <p>Have a Team? <a href="/register">Register</a>!</p>
+  </div>
+</div>
+<div class="row">
   <div class="col-md-12">
     <table
         id="team-list"
@@ -23,6 +28,8 @@ title: Teams
       </thead>
       <tbody>
         {% assign ach_count = 0 %}
+        {% if site.data.teams %}
+
         {% for team in site.data.teams %}
         <tr>
           <td>
@@ -55,6 +62,11 @@ title: Teams
           </td>
         </tr>
         {% endfor %}
+        {% else %}
+        <tr>
+          <td colspan="5" class="text-center">No Teams Registered</td>
+        </tr>
+        {% endif %}
       </tbody>
       <tfoot>
         <tr>
