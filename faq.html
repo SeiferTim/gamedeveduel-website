@@ -2,25 +2,69 @@
 layout: default
 title: FAQ
 ---
-<div class="container">
-	<div class="panel-group" id="accordion">
+<div class="row">
+	<div class="col-md-9">
+		<div class="panel-group section" id="accordion">
 
-		{% for faq in site.data.faq %}
-		<h3>{{ faq.name }}</h3>
-		{% for question in faq.questions %}
-		<div class="panel panel-default">
-			<div class="panel-heading">
-				<h4 class="panel-title">
-				{{ question.q }}
-				</h4>
-			</div>
-			<div class="panel-collapse">
-				<div class="panel-body">
-					{{ question.a }}
+			{% for faq in site.data.faq %}
+			<h3 id="{{ faq.name | slugify }}">{{ faq.name }}</h3>
+			{% for question in faq.questions %}
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title" id="{{ question.q | slugify }}">
+					{{ question.q }}
+					</h4>
+				</div>
+				<div class="panel-collapse">
+					<div class="panel-body">
+						{{ question.a }}
+					</div>
 				</div>
 			</div>
+      {% endfor %}
+      {% endfor %}
 		</div>
-        {% endfor %}
-        {% endfor %}
+	</div>
+	<div class="col-md-3">
+		<nav class="sidebar hidden-print hidden-xs hidden-sm affix">
+			<ul class="nav sidenav">
+				{% for faq in site.data.faq %}
+				<li>
+					<a href="#{{ faq.name | slugify }}">{{ faq.name }}</a>
+					<ul class="nav">
+					{% for question in faq.questions %}
+						<li>
+							<a href="#{{ question.q | slugify }}">{{ question.q }}</a>
+						</li>
+					{% endfor %}
+					</ul>
+				</li>
+				{% endfor %}
+			</ul>
+		</nav>
 	</div>
 </div>
+
+<script>
+	$(function () {
+		$(window).on("load", function() {
+				$('body').scrollspy("refresh");
+		});
+		$('body').scrollspy({ target: '.sidebar' });
+		setTimeout(function() {
+			$('.sidebar').affix({
+				offset: {
+					top: function() {
+						var c = $('.sidebar').offset().top,
+                d = parseInt($('.sidebar').children(0).css("margin-top"), 10),
+                e = $(".nav").height();
+            return this.top = c - e - d
+					},
+					bottom: function() {
+						return this.bottom = $("footer").outerHeight(!0)
+					}
+				}
+			})
+		}, 100);
+	});
+</script>
