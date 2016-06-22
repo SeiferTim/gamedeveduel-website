@@ -1,0 +1,26 @@
+---
+layout: default
+title: FAQ
+---
+<div class="container">
+	<div class="panel-group" id="accordion">
+
+		{% for faq in site.data.faq %}
+		<h3>{{ faq.name }}</h3>
+		{% for question in faq.questions %}
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+				{{ question.q }}
+				</h4>
+			</div>
+			<div class="panel-collapse">
+				<div class="panel-body">
+					{{ question.a }}
+				</div>
+			</div>
+		</div>
+        {% endfor %}
+        {% endfor %}
+	</div>
+</div>
