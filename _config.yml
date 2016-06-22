@@ -24,6 +24,8 @@ page_gen:
     template: 'team_page'
     name: "team_name"
     dir: "teams"
+  - data: 'faq'
+    dir: "faq"
 
 
 
