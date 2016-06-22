@@ -2,7 +2,7 @@
 
 - number: 0
   ach_name: "Freebie"
-  desc: "Sign into slack and post a team name in the #gamedevduelcheevos channel (https://stlgamedev.slack.com/messages/gamedevduelcheevos)"
+  desc: "Sign into slack and post a team name in the #gdd_achievements channel (https://stlgamedev.slack.com/messages/gdd_achievements)"
   icon: shiny-purse
   week: 1
 
@@ -38,19 +38,19 @@
 
 - number: 6
   ach_name: "Git it on"
-  desc: "If your game isn't in version control by now, add it to version control (github.com, bitbucket.com, Subversion)"
+  desc: "Add your game to version control (github.com, bitbucket.com, Subversion)"
   icon: juggler
   week: 1
 
 - number: 7
   ach_name: "Hardcore #1"
-  desc: "Everyone on the team worked on the game for over 3 hours in one sitting before July 8th"
+  desc: "Everyone on the team worked on the game for over 3 hours in one sitting between June 30th and July 8th"
   icon: confrontation-i
   week: 1
 
 - number: 8
   ach_name: "Weekender #1"
-  desc: "At least one person on the team spent at least 8 hours over the weekend of July 1st to July 3rd working on the game"
+  desc: "At least one person on the team spent at least 8 hours in total over the weekend of July 1st to July 3rd working on the game"
   icon: sands-of-time-i
   week: 1
 
@@ -70,7 +70,7 @@
 
 - number: 11
   ach_name: "StandUp"
-  desc: "Post a Daily Standup in the Slack channel. In a Standup, mention what you did yesterday, and what you plan to do today. Standups are a great way to keep you focused on your goals!"
+  desc: "Post a Daily Standup in the general Slack channel. In a Standup, mention what you did yesterday, and what you plan to do today. Standups are a great way to keep you focused on your goals!"
   icon: muscle-up
   week: 2
 
@@ -82,7 +82,7 @@
 
 - number: 13
   ach_name: "Publisher"
-  desc: "Build an itch.io page for your game under our Game Jam"
+  desc: "Build an itch.io page for your game under our Game Jam (https://itch.io/jam/game-dev-duel-2016)"
   icon: book-cover
   week: 2
 
@@ -168,7 +168,7 @@
 
 - number: 27
   ach_name: "Credits"
-  desc: "Add a credits screen to your game"
+  desc: "Add a credits screen to your game (free achievement if not applicable)"
   icon: folded-paper
   week: 3
 
