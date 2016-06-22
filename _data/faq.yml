@@ -11,8 +11,8 @@
       a: "Yes! We are planning on streaming the kickoff beginning at or around 7:00PM CST at http://twitch.tv/stlgamedev. You and your team can find the theme there or posted on the website after the event. Make a game, then send a message through the form at http://stlgamedev.com/contact/ and let someone know to get in touch with you about presenting. You'll probably have to demo over twitch."
     - q: "I heard about this event weeks after the kickoff. Can I still participate?"
       a: "If you can make a game that meets the theme by August 1st you can participate."
-    - q: "How should I act at this event?"
-      a: "Glad you asked! This is a Game Dev Co-op event, and is covered under the Code of Conduct posted at http://stlgamedev.com/events/code-of-conduct/"
+    - q: "Will I feel safe participating in the Game Dev Duel?"
+      a: "The events are run by the Game Dev Co-op and are covered under the Code of Conduct posted at http://stlgamedev.com/events/code-of-conduct/. For meeting with your team outside of events please use common sense. Always meet in public places and make sure a loved one knows where you are."
 - section:
   name: "Slack"
   questions:
