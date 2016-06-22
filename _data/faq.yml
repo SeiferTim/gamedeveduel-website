@@ -30,7 +30,7 @@
   name: "Achievements"
   questions:
     - q: "How do I log achievements?"
-      a: "Post your team name and the achievement name in http://stlgamedev.slack.com/messages/gamedevduel_achievements/. Achievements will take up to 24 hours to appear on the site."
+      a: "Post your team name and the achievement name in http://stlgamedev.slack.com/messages/gdd_achievements/. Achievements will take up to 24 hours to appear on the site."
     - q: "How many achievements are there?"
       a: "There are 50 achievements in total. 20 will be available from the start and 10 more will be added on July 8th, 15th, and 22nd."
     - q: "This seems like a hassle. Do I need to get achievements?"
