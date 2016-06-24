@@ -3,6 +3,8 @@
   questions:
     - q: "How much does it cost?"
       a: "Totally free!"
+    - q: "Should I bring a team or find one there?"
+      a: "It's up to you! You can bring a team, create one there, or join an existing team there. It depends on what you hope to get out of this event. Just be honest with people about your skills and commitment level when joining."
     - q: "Can I work alone?"
       a: "Definitely! In a lot of cases it might even be easier, but you won't get as much out of it because you'll have more responsibilities and won't improve your ability to work effectively with others."
     - q: "Will this Game Jam have a theme?"
