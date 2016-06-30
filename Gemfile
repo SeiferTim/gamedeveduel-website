@@ -4,6 +4,7 @@ gem 'bundler'
 gem 'rake'
 gem 'jekyll'
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
+gem 'rack', '~> 1.6.4'
 gem 'jekyll-assets', '~> 2.1.2'
 gem 'yui-compressor'
 gem 'listen'
