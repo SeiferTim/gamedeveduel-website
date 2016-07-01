@@ -12,4 +12,520 @@
 #  titlescreen:
 #  itch:
 #  achieves: [ ]
-#
+
+
+- team_name: Angry Swan
+  twitter:
+  github:
+  members:
+    - name: Anna Russel
+      twitter:
+      github:
+    - name: Alex Konieczny
+      twitter:
+      github:
+    - name: Kelly Farris
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Brave Jazz
+  twitter:
+  github:
+  members:
+    - name: Jasmine Moore
+      twitter: jmoore9178
+      github:
+    - name: Phillip Hayes
+      twitter: bravendary
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: BunnyGun
+  twitter:
+  github:
+  members:
+    - name: Robert Smith
+      twitter:
+      github:
+    - name: Jeremy Cointin
+      twitter:
+      github:
+    - name: Nate Haskins
+      twitter:
+      github:
+    - name: Allison Schuman
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Chill Stick Figure
+  twitter:
+  github:
+  members:
+    - name: Rob Santos
+      twitter: robmsantos
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: DereSquad Games
+  twitter:
+  github:
+  members:
+    - name: Ryan Klohr
+      twitter:
+      github:
+    - name: Lucas O Donnel
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Deterrent Syndicate
+  twitter:
+  github:
+  members:
+    - name: Ryan von Rosenberg
+      twitter: dragodracini
+      github:
+    - name: Heather von Rosenberg
+      twitter:
+      github:
+    - name: Chad Limestall
+      twitter:
+      github:
+    - name: Gregory McWilliams
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Dioxin Dump
+  twitter:
+  github:
+  members:
+    - name: Stuart Keating
+      twitter: spkstl
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ 0, 3, 4 ]
+
+- team_name: Drawing A Blank
+  twitter:
+  github:
+  members:
+    - name: Jon Honeycutt
+      twitter:
+      github:
+    - name: Alex Lindquist
+      twitter:
+      github:
+    - name: MK. Jones
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Dueling Ocarinas
+  twitter:
+  github:
+  members:
+    - name: Tim Snyder
+      twitter:
+      github:
+    - name: Jesse Chounard
+      twitter: chounard
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ 0, 3, 4 ]
+
+- team_name: Team Scotland
+  twitter:
+  github: https://github.com/seifertim/golf-200x
+  members:
+    - name: Tim Hely
+      twitter: seifertim
+      github:
+    - name: Adriana Disano
+      twitter:
+      github:
+    - name: Chris Mayfield
+      twitter: abandonrules
+      github:
+    - name: Emery Cox
+      twitter: emerycox4
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ 0, 1, 3, 4, 6 ]
+
+- team_name: Gravy Dragon
+  twitter:
+  github:
+  members:
+    - name: Alex Daigre
+      twitter: seniordongato
+      github:
+    - name: Cynara Ellis
+      twitter: medicatedcub
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ 0, 3  ]
+
+- team_name: Hydra
+  twitter:
+  github:
+  members:
+    - name: Chris Lindquist
+      twitter:
+      github:
+    - name: Benjamin Apprill
+      twitter:
+      github:
+    - name: Arthur Hollinshed
+      twitter:
+      github:
+    - name: Westin Breger
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Locust
+  twitter:
+  github:
+  members:
+    - name: Eric Aikin
+      twitter:
+      github:
+    - name: Virgil Bland
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Mates
+  twitter:
+  github:
+  members:
+    - name: Kevin Damazyn
+      twitter: theekjpd
+      github:
+    - name: Cathy Casey
+      twitter: beatlemaniac513
+      github:
+    - name: Katherine Brennan
+      twitter:
+      github:
+    - name: Joe Pritzel
+      twitter:
+      github:
+    - name: Darrel Jiang
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Monster Squad
+  twitter:
+  github:
+  members:
+    - name: Eric Wideman
+      twitter: lycanthropelabs
+      github:
+    - name: Jennifer Huff
+      twitter:
+      github:
+    - name: David Patton
+      twitter:
+      github:
+    - name: Brandon Plummer
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: New Job
+  twitter:
+  github:
+  members:
+    - name: Carol Mertz
+      twitter: carolmertz
+      github:
+    - name: Grace Gogarty
+      twitter:
+      github:
+    - name: Kristina Goodwin
+      twitter: kristinagoodwin
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Redbird Menace
+  twitter:
+  github:
+  members:
+    - name: Malcolm Pierce
+      twitter: redbirdmenace
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name:  Richard Isn't Present
+  twitter:
+  github:
+  members:
+    - name: Nick Stone
+      twitter: nstone007
+      github:
+    - name: Mark Agne
+      twitter: markagne
+      github:
+    - name: Lee Barlow
+      twitter:
+      github:
+    - name: Joshua Fernandez
+      twitter:
+      github:
+    - name: Richard Nava
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name:  Ryft Games
+  twitter:
+  github:
+  members:
+    - name: Ryan Klohr
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name:  Shoctopus
+  twitter:
+  github:
+  members:
+    - name: Jonah Long
+      twitter:
+      github:
+    - name: Sarah Wahoff
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name:  Stoopid Chikin
+  twitter:
+  github:
+  members:
+    - name: Zac Montague
+      twitter: z_montague
+      github:
+    - name: Lena Faitz
+      twitter: lenafaitz
+      github:
+    - name: Greg Langston
+      twitter: gregstl
+      github:
+    - name: Bethany Steevens
+      twitter: bethanythoughts
+      github:
+    - name: John Grotts
+      twitter: johngrotts
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Swoot
+  twitter:
+  github:
+  members:
+    - name: Dan Dymek
+      twitter: dandymek
+      github:
+    - name: Walden Jost
+      twitter: wrjost
+      github:
+    - name: Cody Hill
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Team Gladiator
+  twitter:
+  github:
+  members:
+    - name: Matthew Craig
+      twitter: mattcraiggaming
+      github:
+    - name: Cregg Hancock
+      twitter:
+      github:
+    - name: James Sirna
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: TeamTBA
+  twitter:
+  github:
+  members:
+    - name: David Song
+      twitter: fireteamtorch
+      github:
+    - name: Jeffrey Hsu
+      twitter: silverhsu
+      github:
+    - name: Brett Yang
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: The Battle Bards
+  twitter:
+  github:
+  members:
+    - name: William Gottfried
+      twitter: dirtyshisno
+      github:
+    - name: Matt Collins
+      twitter:
+      github:
+    - name: Charles Vanjork
+      twitter:
+      github:
+    - name: Christian Schaefer
+      twitter:
+      github:
+    - name: Lloyd Reynold
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: The Creative Explorer
+  twitter:
+  github:
+  members:
+    - name: Olugbenga Orebiyi
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: The Merging
+  twitter:
+  github:
+  members:
+    - name: Phil Snowbarger
+      twitter: philsnowman
+      github:
+    - name: Jacob Lear
+      twitter: jacoblear7689
+      github:
+    - name: Liam Ryan
+      twitter: liamthelion777
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Tiny Midnight Savages
+  twitter:
+  github:
+  members:
+    - name: Randy Phillips
+      twitter: calibermengsk
+      github:
+    - name: Terry Mosier
+      twitter: tmoney_13
+      github:
+    - name: Chris Winnett
+      twitter: chrisstl
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+
+- team_name: Undefined
+  twitter:
+  github:
+  members:
+    - name: Bryan Maynard
+      twitter: bsgbryan
+      github:
+    - name: Jason Mayer
+      twitter:
+      github:
+    - name: Brian Donaldson
+      twitter:
+      github:
+    - name: Timothy Gerlach
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]

@@ -81,6 +81,7 @@ DEPENDENCIES
   net-sftp
   net-ssh
   nuggets
+  rack (~> 1.6.4)
   rake
   rouge
   rubyzip (>= 1.0.0)
