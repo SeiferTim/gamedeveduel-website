@@ -30,7 +30,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ 0, 3, 4 ]
+  achieves: [ 0, 3, 4, 6 ]
 
 - team_name: Brave Jazz
   twitter:
@@ -216,7 +216,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ ]
+  achieves: [ 0, 3, 4 ]
 
 - team_name: Locust
   twitter:
