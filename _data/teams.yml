@@ -276,7 +276,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ ]
+  achieves: [ 0, 3, 4, 6 ]
 
 - team_name: New Job
   twitter:
