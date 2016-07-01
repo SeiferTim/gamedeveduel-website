@@ -30,7 +30,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ ]
+  achieves: [ 0, 3, 4 ]
 
 - team_name: Brave Jazz
   twitter:
@@ -381,7 +381,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ ]
+  achieves: [ 0, 3, 4 ]
 
 - team_name: Swoot
   twitter:
@@ -507,7 +507,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ ]
+  achieves: [ 0, 3, 4, 6 ]
 
 - team_name: Undefined
   twitter:
