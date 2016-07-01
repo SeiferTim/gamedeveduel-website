@@ -26,7 +26,7 @@
 
 - number: 4
   ach_name: "Tracker"
-  desc: "Set up a Kanban board (https://trello.com/ or the tool of your choice) to prioritize tasks and track progress"
+  desc: "Set up a Task Tracking board (https://trello.com/ or the tool of your choice) to prioritize tasks and track progress"
   icon: treasure-map
   week: 1
 
