@@ -529,3 +529,31 @@
   titlescreen:
   itch:
   achieves: [ ]
+
+- team_name: bitobyte
+  twitter:
+  github:
+  members:
+    - name: Brian Donaldson
+      twitter:
+      github:
+    - name: Timothy Gerlach
+      twitter:
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+  
+- team_name: SuperWes Games
+  twitter:
+  github:
+  members:
+    - name: Wes Ehrlichman
+      twitter: wesleyte
+      github:
+  game:
+  titlescreen:
+  itch:
+  achieves: [ ]
+  
