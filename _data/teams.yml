@@ -255,7 +255,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ ]
+  achieves: [ 0, 3, 4 ]
 
 - team_name: Monster Squad
   twitter:
