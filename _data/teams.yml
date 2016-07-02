@@ -556,7 +556,7 @@
   
 - team_name: snakeCase
   twitter:
-  github: bsgbryan/friendly-memory
+  github:  https://github.com/bsgbryan/friendly-memory
   members:
     - name: Bryan Maynard
       twitter: bsgbryan
