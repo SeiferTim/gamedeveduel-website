@@ -306,7 +306,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ 0, 1 ]
+  achieves: [ 0, 1, 2 ]
 
 - team_name:  Richard Isn't Present
   twitter:
@@ -556,7 +556,7 @@
   
 - team_name: snakeCase
   twitter:
-  github:
+  github: bsgbryan/friendly-memory
   members:
     - name: Bryan Maynard
       twitter: bsgbryan
