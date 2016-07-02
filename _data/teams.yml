@@ -259,7 +259,7 @@
 
 - team_name: Monster Squad
   twitter:
-  github:
+  github: https://bitbucket.org/Lycaneric/project_slowjam/
   members:
     - name: Eric Wideman
       twitter: lycanthropelabs

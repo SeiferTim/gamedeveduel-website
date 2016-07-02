@@ -256,7 +256,7 @@
 
 - number: 41
   ach_name: "Open Source"
-  desc: "Your game is open source and the code is available in a public source control repository such as github.com or bitbucket.com"
+  desc: "Your game is open source and the code is available in a public source control repository such as github.com or bitbucket.com (be sure to include a link when requesting the achievement)"
   icon: checkbox-tree
   week: 0
 
