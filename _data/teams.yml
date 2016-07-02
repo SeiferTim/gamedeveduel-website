@@ -45,7 +45,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ ]
+  achieves: [ 0, 3, 4, 6 ]
 
 - team_name: BunnyGun
   twitter:
@@ -95,7 +95,7 @@
   itch:
   achieves: [ ]
 
-- team_name: Deterrent Syndicate
+- team_name: Deviant Syndicate
   twitter:
   github:
   members:
@@ -114,7 +114,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ ]
+  achieves: [ 0, 3, 4 ]
 
 - team_name: Dioxin Dump
   twitter:
@@ -306,7 +306,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ ]
+  achieves: [ 0, 1 ]
 
 - team_name:  Richard Isn't Present
   twitter:
@@ -537,13 +537,13 @@
     - name: Brian Donaldson
       twitter:
       github:
-    - name: Timothy Gerlach
+    - name: Brent Rogers
       twitter:
       github:
   game:
   titlescreen:
   itch:
-  achieves: [ ]
+  achieves: [ 0, 3, 4, 6 ]
   
 - team_name: SuperWes Games
   twitter:
