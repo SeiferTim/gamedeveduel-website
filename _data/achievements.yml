@@ -32,7 +32,7 @@
 
 - number: 5
   ach_name: "Check-in #1"
-  desc: "Meet up with your team in person. We recommend the check-in event at Riot Games on July 6th (featuring Butterscotch Shenanigans)"
+  desc: "Meet up with your team in person between June 30th and July 8th. We recommend the check-in event at Riot Games on July 6th (featuring Butterscotch Shenanigans)"
   icon: hill-conquest-i
   week: 1
 
@@ -94,7 +94,7 @@
 
 - number: 15
   ach_name: "Check-in #2"
-  desc: "Meet up with your team in person to evaluate progress and discuss plans. If your whole team is over 21, meet up at the check-in on July 14th at Orbit Pinball Lounge."
+  desc: "Meet up with your team in person to evaluate progress and discuss plans betweeen July 8th and July 15th. If your whole team is over 21, meet up at the check-in on July 14th at Orbit Pinball Lounge."
   icon: hill-conquest-ii
   week: 2
 
@@ -150,7 +150,7 @@
 
 - number: 24
   ach_name: "Check-in #3"
-  desc: "Meet up with your team in person. We recommend the check-in event at Riot Games on July 20th"
+  desc: "Meet up with your team in person between July 15th and July 22nd. We recommend the check-in event at Riot Games on July 20th"
   icon: hill-conquest-iii
   week: 3
 
@@ -188,7 +188,7 @@
 
 - number: 30
   ach_name: "Check-in #4"
-  desc: "Meet up with your team in person. We recommend the check-in event the last week of July"
+  desc: "Meet up with your team in person between July 22nd and July 29th. We recommend the check-in event the last week of July"
   icon: hill-conquest-iv
   week: 4
 
