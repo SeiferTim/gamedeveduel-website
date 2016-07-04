@@ -417,7 +417,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ ]
+  achieves: [ 0, 1 ]
 
 - team_name: TeamTBA
   twitter:
