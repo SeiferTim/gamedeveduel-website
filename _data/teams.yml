@@ -306,7 +306,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ 0, 1, 2, 7, 8 ]
+  achieves: [ 0, 1, 2, 7, 8, 9 ]
 
 - team_name:  Richard Isn't Present
   twitter:
