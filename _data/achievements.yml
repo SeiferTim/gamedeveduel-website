@@ -76,7 +76,7 @@
 
 - number: 12
   ach_name: "Screenshot Saturday #1"
-  desc: "July 9th Screenshot Saturday! Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
+  desc: "July 9th Screenshot Saturday! Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel2016 and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
   icon: photo-camera-i
   week: 2
 
@@ -132,7 +132,7 @@
 
 - number: 21
   ach_name: "Screenshot Saturday #2"
-  desc: "July 16 Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
+  desc: "July 16 Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel2016 and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
   icon: photo-camera-ii
   week: 3
 
@@ -194,13 +194,13 @@
 
 - number: 31
   ach_name: "Screenshot Saturday #3"
-  desc: "July 23rd Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
+  desc: "July 23rd Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel2016 and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
   icon: photo-camera-iii
   week: 4
 
 - number: 32
   ach_name: "Screenshot Saturday #4"
-  desc: "July 30th Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
+  desc: "July 30th Post a screenshot to Twitter with the name of your game and the hashtags #screenshotsaturday and #gamedevduel2016 and/or the Game Dev Co-op Facebook page (http://facebook.com/stlgamedev) with the hashtag #screenshotsaturday"
   icon: photo-camera-iv
   week: 4
 
