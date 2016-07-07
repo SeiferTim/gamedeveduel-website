@@ -306,7 +306,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ 0, 1, 2, 7, 8, 9 ]
+  achieves: [ 0, 1, 2, 5, 7, 8, 9 ]
 
 - team_name:  Richard Isn't Present
   twitter:
@@ -330,7 +330,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ 0, 3, 5, 6 ]
+  achieves: [ 0, 3, 4, 5, 6 ]
 
 - team_name:  Ryft Games
   twitter:
@@ -361,7 +361,7 @@
 
 - team_name:  Stoopid Chikin
   twitter:
-  github:
+  github: https://github.com/glangston83/stoopid-chikin
   members:
     - name: Zac Montague
       twitter: z_montague
@@ -381,7 +381,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ 0, 3, 4 ]
+  achieves: [ 0, 1, 2, 3, 4, 6, 8 ]
 
 - team_name: Swoot
   twitter:
@@ -564,4 +564,4 @@
   game:
   titlescreen:
   itch:
-  achieves: [ 0, 1, 3, 4, 5, 6, 7, 8, 9 ]
+  achieves: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
