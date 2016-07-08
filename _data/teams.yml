@@ -156,7 +156,7 @@
     - name: Jesse Chounard
       twitter: chounard
       github:
-  game:
+  game: Putt-Putt HYPER Golf 30XX
   titlescreen:
   itch:
   achieves: [ 0, 3, 4 ]
@@ -180,7 +180,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ 0, 1, 2, 3, 4, 6, 8, 9 ]
+  achieves: [ 0, 1, 2, 3, 4, 5, 6, 8, 9, 10 ]
 
 - team_name: Gravy Dragon
   twitter:
