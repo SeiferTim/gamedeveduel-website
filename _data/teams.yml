@@ -399,7 +399,7 @@
   game:
   titlescreen:
   itch:
-  achieves: [ 0, 1, 2, 3, 4, 6, 8 ]
+  achieves: [ 0, 1, 2, 3, 4, 6, 8, 11, 19 ]
 
 - team_name: Team Gladiator
   twitter:
