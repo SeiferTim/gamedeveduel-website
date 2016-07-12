@@ -64,7 +64,7 @@
 
 - number: 10
   ach_name: "Named"
-  desc: "Finalize the name of your game so that you can begin marketing it"
+  desc: "Finalize the name of your game so that you can begin marketing it. Post the name in #gdd_achievements on slack"
   icon: fountain-pen
   week: 2
 
@@ -82,7 +82,7 @@
 
 - number: 13
   ach_name: "Publisher"
-  desc: "Build an itch.io page for your game under our Game Jam (https://itch.io/jam/game-dev-duel-2016)"
+  desc: "Build an itch.io page for your game under our Game Jam (https://itch.io/jam/game-dev-duel-2016). Post a link in #gdd_achievements on slack"
   icon: book-cover
   week: 2
 
