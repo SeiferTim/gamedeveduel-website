@@ -161,23 +161,23 @@
   itch:
   achieves: [ 0, 3, 4 ]
 
-- team_name: Team Scotland
-  twitter:
-  github: https://github.com/seifertim/golf-200x
-  members:
-    - name: Adriana Disano
-      twitter:
-      github:
-    - name: Chris Mayfield
-      twitter: abandonrules
-      github:
-    - name: Emery Cox
-      twitter: emerycox4
-      github:
-  game:
-  titlescreen:
-  itch:
-  achieves: [ 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 16, 17 ]
+#- team_name: Team Scotland
+#  twitter:
+#  github: https://github.com/seifertim/golf-200x
+#  members:
+#    - name: Adriana Disano
+#      twitter:
+#      github:
+#    - name: Chris Mayfield
+#      twitter: abandonrules
+#      github:
+#    - name: Emery Cox
+#      twitter: emerycox4
+#      github:
+#  game:
+#  titlescreen:
+#  itch:
+#  achieves: [ 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 16, 17 ]
 
 - team_name: Gravy Dragon
   twitter:
