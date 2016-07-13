@@ -13,7 +13,6 @@
 #  itch:
 #  achieves: [ ]
 
-
 - team_name: Angry Swan
   twitter:
   github:
@@ -282,7 +281,7 @@
     - name: Malcolm Pierce
       twitter: redbirdmenace
       github:
-  game: CatHack: A Dungeon Paw-ler
+  game: "CatHack: A Dungeon Paw-ler"
   titlescreen:
   itch:
   achieves: [ 0, 1, 2, 5, 7, 8, 9, 10, 11, 12, 16]
