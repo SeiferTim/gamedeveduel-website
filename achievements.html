@@ -24,7 +24,7 @@ title: Achievements
       </thead>
       <tbody>
         {% for ach in site.data.achievements | sort: 'number', 'week'  %}
-        {% if ach.week <= 2 %}
+        {% if ach.week <= 3 %}
         <tr>
           <td class="text-center">{% include ach-icon.html icon=ach.number %}</td>
           <td><strong>{{ ach.ach_name }}</strong></td>
