@@ -144,7 +144,7 @@
 
 - number: 23
   ach_name: "Feedback"
-  desc: "Have someone play your game"
+  desc: "Have someone that is not on your team play your game"
   icon: tabletop-players
   week: 3
 
