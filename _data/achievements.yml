@@ -188,7 +188,7 @@
 
 - number: 30
   ach_name: "Check-in #4"
-  desc: "Meet up with your team in person between July 22nd and July 29th. We recommend the check-in event the last week of July"
+  desc: "Meet up with your team in person between July 22nd and July 31st. We recommend the check-in event at Graphite Lab on July 27th (http://www.meetup.com/St-Louis-Game-Developers/events/232789508/)"
   icon: hill-conquest-iv
   week: 4
 
@@ -224,13 +224,13 @@
 
 - number: 36
   ach_name: "Made in St Louis"
-  desc: "Add the Made in St. Louis Splash Screen to your game"
+  desc: "Add a Made in St. Louis Splash Screen to your game"
   icon: wax-seal
   week: 4
 
 - number: 37
   ach_name: "Hardcore #4"
-  desc: "Everyone on the team worked on the game for over 3 hours in one sitting between July 22nd and July 29th"
+  desc: "Everyone on the team worked on the game for over 3 hours in one sitting between July 22nd and July 31st"
   icon: confrontation-iv
   week: 4
 
