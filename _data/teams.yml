@@ -482,6 +482,9 @@
     - name: Chris Winnett
       twitter: chrisstl
       github:
+    - name: James Sirna
+      twitter: james_sirna
+      github:
   game: Tiny Midnight Savages
   titlescreen:
   itch:
@@ -530,10 +533,10 @@
     - name: Scott Petrovic
       twitter: scottpetrovic
       github:
-  game:
+  game: Relentless
   titlescreen:
-  itch:
-  achieves: [ 0, 1, 3, 4, 5, 6, 12 ]
+  itch: https://superwes.itch.io/relentless
+  achieves: [ 0, 1, 3, 4, 5, 6, 10, 12, 13, 15, 31 ]
   
 - team_name: snakeCase
   twitter:
