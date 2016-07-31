@@ -560,4 +560,16 @@
   game: Save Face
   titlescreen:
   itch: 
-  achieves: [ 18, 21, 23, 28, ]
+  achieves: [ 18, 21, 23, 28 ]
+
+- team_name: Crank Operator
+  twitter:
+  github: 
+  members:
+    - name: Allen Taylor
+      twitter: 
+      github:
+  game: Mothership Disconnection
+  titlescreen:
+  itch: 
+  achieves: [ 0 ]
