@@ -110,9 +110,9 @@
     - name: Gregory McWilliams
       twitter:
       github:
-  game:
+  game: Atacolypse
   titlescreen:
-  itch:
+  itch: https://dragodracini.itch.io/atacolypse
   achieves: [ 0, 3, 4 ]
 
 - team_name: Dioxin Dump
@@ -332,9 +332,9 @@
     - name: Sarah Wahoff
       twitter:
       github:
-  game:
+  game: Shoctopus
   titlescreen:
-  itch:
+  itch: https://shoctopus.itch.io/shoctopus
   achieves: [ ]
 
 - team_name:  Stoopid Chikin
@@ -446,9 +446,9 @@
     - name: Olugbenga Orebiyi
       twitter:
       github:
-  game:
+  game: The Character Files
   titlescreen:
-  itch:
+  itch: https://explorerooo.itch.io/the-character-files
   achieves: [ ]
 
 - team_name: The Merging
